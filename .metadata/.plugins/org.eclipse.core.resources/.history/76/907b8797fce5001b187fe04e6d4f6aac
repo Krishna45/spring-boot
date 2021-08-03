@@ -1,0 +1,23 @@
+package com.example.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.example.bean.Shopping;
+import com.example.service.ShoppingService;
+
+public class ShoppingController {
+
+	@Autowired
+	private ShoppingService s;
+	
+	public ModelAndView displayAllProducts()
+	{
+		List<Shopping> list=s.getAllProducts();
+		return new ModelAndView("output.jsp","list",list);
+	}
+	
+	
+}

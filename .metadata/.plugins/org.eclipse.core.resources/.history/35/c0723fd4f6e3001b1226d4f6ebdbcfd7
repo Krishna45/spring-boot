@@ -1,0 +1,16 @@
+package com.example.service;
+
+@Service
+public class RatingServiceImpl implements RatingService {
+
+	@Autowired
+	private RatingDao ratingDao;
+	
+	@Override
+	public RatingList getRatingByUserId(String userId) {
+		
+		return new RatingList(ratingDao.findAllByUserId(userId));
+		
+	}
+
+}

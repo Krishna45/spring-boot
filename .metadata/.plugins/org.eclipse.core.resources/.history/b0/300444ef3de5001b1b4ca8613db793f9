@@ -1,0 +1,26 @@
+package com.example.resource;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.bean.InventoryItem;
+import com.example.service.InventoryService;
+
+@RestController
+public class InventoryController {
+
+	@Autowired
+	private InventoryService inventoryService;
+	
+	public InventoryItem getInventoryByProductionCode(String code)
+	{
+		return inventoryService.getInventoryByProductionCode(code);
+	}
+	public List<InventoryItem> getInventory()
+	{
+		return inventoryService.getInventory();
+	}
+	
+}

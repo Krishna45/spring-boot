@@ -1,0 +1,11 @@
+package com.example.service;
+
+public interface EmployeeService {
+
+	Collection<Employee> getAllEmployees();
+	Employee saveEmployee(Employee employee);
+	Employee findEmployee(int id);
+	Employee removeEmployee(int id);
+	Employee updateEmployee(int id,int salary);
+	
+}

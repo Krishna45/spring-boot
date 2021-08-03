@@ -1,0 +1,9 @@
+package com.example.service;
+
+import com.example.bean.Rating;
+
+public interface RatingService {
+
+	Rating searchById(String id);
+	
+}

@@ -1,0 +1,27 @@
+package com.example.bean;
+
+import java.util.List;
+
+public class ProductList {
+
+	private List<Product> productList;
+
+	public ProductList() {
+		super();
+	}
+
+	public ProductList(List<Product> list) {
+		super();
+		this.productList = list;
+	}
+
+	public List<Product> getList() {
+		return productList;
+	}
+
+	public void setList(List<Product> list) {
+		this.list = list;
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+package com.example.persistence;
+
+import java.util.List;
+
+import com.example.bean.Product;
+
+public class ProductDaoImpl implements ProductDao {
+
+	@Override
+	public List<Product> findAllProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product findProductByCode(String code) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

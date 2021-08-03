@@ -1,0 +1,31 @@
+package com.example.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.bean.InventoryItem;
+import com.example.persistence.InventoryDao;
+
+@Service
+public class InventoryServiceImpl implements InventoryService {
+
+	@Autowired
+	private InventoryDao inventoryDao;
+	
+	@Override
+	public InventoryItem getInventoryByProductionCode(String code) {
+		
+		return inventoryDao.findInventoryByProductionCode(code);
+		
+	}
+
+	@Override
+	public List<InventoryItem> getInventory() {
+		
+		return inventoryDao.findAll();
+		
+	}
+
+}

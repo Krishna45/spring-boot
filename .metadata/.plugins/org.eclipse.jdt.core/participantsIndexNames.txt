@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\SpringBootREST_API\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1073277799.index
+\ShoppingProject\src\main\java
+D:\SpringBootREST_API\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3296335827.index
+\ShoppingProject\src\main\java

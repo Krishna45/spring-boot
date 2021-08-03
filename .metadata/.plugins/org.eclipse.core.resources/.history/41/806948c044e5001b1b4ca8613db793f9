@@ -1,0 +1,12 @@
+package com.example.bean;
+
+import java.util.List;
+
+public class Order {
+
+	private long id;
+	private String customerEmail;
+	private String customerAddress;
+	List<OrderItem> item;
+	
+}

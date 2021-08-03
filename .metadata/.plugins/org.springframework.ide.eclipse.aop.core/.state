@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="OrderServiceProject"/>
+<aop-project name="InventoryServiceProject"/>
+<aop-project name="SpringREST_Project_1"/>
+<aop-project name="ShoppingProject"/>
+<aop-project name="CatalogServiceProject"/>
+<aop-project name="SpringREST_API"/>
+<aop-project name="MovieInformationProject"/>
+<aop-project name="RatingDataProject"/>
+</aop-reference-model>

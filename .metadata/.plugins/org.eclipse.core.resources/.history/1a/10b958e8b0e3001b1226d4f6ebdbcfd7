@@ -1,0 +1,13 @@
+package com.example.service;
+
+import com.example.bean.Movie;
+
+public class MovieServiceImpl implements MovieService {
+
+	@Override
+	public Movie searchById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
